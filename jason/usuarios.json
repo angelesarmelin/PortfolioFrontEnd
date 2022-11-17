@@ -1,0 +1,40 @@
+[
+{
+    "nombre":"Angeles",
+    "apellido":"Armelin",
+    "edad":50,
+    "administrador":false,
+    "puestos": {
+        "cargo":"Tecnica",
+        "coordinacion": "Informatica",
+        "direccion": "Cordoba",
+        "historial":
+            {
+                "año":2018,
+                "cargo":"Directora de Administracion",
+                "empresa":"PTN"
+            }
+        }
+},
+
+{
+"nombre":"Pablo",
+    "apellido":"Factorovich",
+    "edad":40,
+    "administrador":false,
+    "puestos": {
+        "cargo":"Coordinador",
+        "coordinacion": "Informatica",
+        "direccion": "Posadas",
+        "historial":
+            {
+                "año":2019,
+                "cargo":"Jefe",
+                "empresa":"Mercado Libre"
+            }
+             
+    }
+}
+]
+
+
