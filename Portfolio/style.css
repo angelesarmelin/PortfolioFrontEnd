@@ -11,9 +11,11 @@
   font-size: 18px;
 }
 .texto {
+  font-family: Arial, Helvetica, sans-serif;
   color: rgb(191, 191, 224);
   font-size: 22px;
   padding: auto;
+  font-weight: bold;
 }
 button {
   border: none;
@@ -24,8 +26,8 @@ button {
   background-color: rgb(15, 96, 161);
   text-align: center;
   cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+  width: 300px;
+  font-size: 16px;
 }
 
 a {
@@ -68,10 +70,14 @@ button:hover, a:hover {
   
 } 
 .css-button-gradient--5 {
-  min-width: 130px;
-  height: 40px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5e;
+  margin-left: 1em;
+  margin-right: 0.5em;
+  min-width: 50px;
+  height: 100px;
   color: #fff;
-  padding: 5px 10px;
+  padding: 1em 2em 2em 2em;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -88,4 +94,11 @@ button:hover, a:hover {
 }
 .css-button-gradient--5:active {
   top: 2px;
+}
+.contenedor {
+  height: 300px;
+  background-color: rgb(69, 164, 202);
+  color: white;
+  font-size: 50px;
+  margin: 20px;
 }
